@@ -1,0 +1,15 @@
+{
+	"description": "Myarena Payment API",
+	"name": "myarena/payment-api",
+	"type": "api",
+	"homepage": "https://payment.myarenaonline.com",
+	"license": "MIT",
+	"support": {
+		"website": "https://market.myarenaonline.com"
+	},
+	"require": {
+		"php": ">=5.3.7",
+		"mongodb/mongodb": "*",
+		"imzers/imzers-utils": "*"
+	}
+}

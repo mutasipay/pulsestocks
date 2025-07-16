@@ -1,0 +1,36 @@
+{
+	"api"		: {
+		"base_url": {
+			"local": "https://apis.truemoney.com",
+			"dev": "https://apis.tmn-dev.com",
+			"sandbox": "https://apis.truemoney.com",
+			"prod": "https://apis.truemoney.com"
+		},
+  "login_auth": {
+   "string": "gCcNwm796FfqrjZ0KPYnxnpH2sHkDWbMK4csz6oqO2P1x3pmURum8TurT5O/EuUqA0RDuSBMGoOZIyGQ",
+   "center": {
+    "url": "https://auth.apismb.com",
+    "key": "smb",
+    "secret": "IM3e5eZh4y8v8ERS"
+   }
+  },
+		"endpoints": {
+			"local": {
+				"oauth"				: "/oauth2/auth-apply",
+				"notify"			: "https://poi-gateway.partner-thp.ascendmoney.io/poi-gateway/services/OnlineTopupService"
+			},
+			"dev": {
+				"oauth"				: "/oauth2/auth-apply",
+				"notify"			: "https://poi-gateway.partner-thn.ascendmoney.io/poi-gateway/services/OnlineTopupService"
+			},
+			"sandbox": {
+				"oauth"				: "/oauth2/auth-apply",
+				"notify"			: "https://poi-gateway.partner-thn.ascendmoney.io/poi-gateway/services/OnlineTopupService"
+			},
+			"prod": {
+				"oauth"				: "/oauth2/auth-apply",
+				"notify"			: "https://poi-gateway.partner-thp.ascendmoney.io/poi-gateway/services/OnlineTopupService"
+			}
+		}
+	}
+}

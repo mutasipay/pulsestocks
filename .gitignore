@@ -1,18 +1,36 @@
-*/config/development
-*/logs/log-*.php
-!*/logs/index.html
-*/cache/*
-!system/cache/*
-!*/cache/index.html
-!*/cache/.htaccess
-
-user_guide_src/build/*
-user_guide_src/cilexer/build/*
-user_guide_src/cilexer/dist/*
-user_guide_src/cilexer/pycilexer.egg-info/*
-
-#codeigniter 3
+/.idea
+/.vcode
+/databases
+/database
+/media
+# Logs and Cache on codeigniter
+/apps/logs
+/apps/application/cache
+/apps/application/logs
+application/cache/*
 application/logs/*
-!application/logs/index.html
-!application/logs/.htaccess
-/vendor/
+*/cache/*
+*/logs/*
+# Log Dir
+/cache
+/cache/*
+/media
+/media/*
+/logs
+/logs/*
+# logs dir on each domains
+/domains/*/logs/*
+# Media dir
+/html/media/*
+# HTACCESS and Config File
+/html/.htaccess
+/html/*.php
+# Set Ignore Deposit
+
+# Ignores Bin
+/www/webbins
+/www/webbins/*
+
+# Editor OS
+/.DS_Store
+.DS_Store
